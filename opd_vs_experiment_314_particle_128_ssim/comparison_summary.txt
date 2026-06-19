@@ -1,0 +1,35 @@
+OPD simulation vs Experiment-314 particle SSIM comparison
+generated_dir = /Users/wangzhuofan/Desktop/Uchiyamalab/Code/Bright-field-microscope-imaging-simulation-for-pure-phase-object/最新的particle defocus series生成程序/results_tif_opd_led_sos_raw_grid256_pad2_NAill009_zstep10
+experiment_path = /Users/wangzhuofan/Desktop/Uchiyamalab/Experiment result/Image analysis/260615 2um beads exposure 2ms 100 intensity 73% intensity 20x 0.5 conc/Experiment-314 的单个粒子.tif
+z_values_um = [-50, -40, -30, -20, -10, 0, 10, 20, 30, 40, 50]
+crop_size_px = 128
+generated_background_median_border = 1.000109791756
+experimental_background_median_border_raw = 193.000000000000
+experimental_scale_factor = 0.005181916019
+ssim_data_range = 1.671582162380
+
+Same-depth SSIM:
+  z=-50 um: 0.93036728
+  z=-40 um: 0.91304548
+  z=-30 um: 0.90070541
+  z=-20 um: 0.89503246
+  z=-10 um: 0.90157291
+  z=+0 um: 0.90963785
+  z=+10 um: 0.92105946
+  z=+20 um: 0.91721772
+  z=+30 um: 0.92896598
+  z=+40 um: 0.93252391
+  z=+50 um: 0.93315042
+
+Best experimental match for each generated depth:
+  generated z=-50 um -> experiment z=+50 um: 0.93170309
+  generated z=-40 um -> experiment z=-50 um: 0.93313214
+  generated z=-30 um -> experiment z=-50 um: 0.93600741
+  generated z=-20 um -> experiment z=-30 um: 0.93014366
+  generated z=-10 um -> experiment z=-10 um: 0.90157291
+  generated z=+0 um -> experiment z=+50 um: 0.91743924
+  generated z=+10 um -> experiment z=+10 um: 0.92105946
+  generated z=+20 um -> experiment z=-50 um: 0.92743086
+  generated z=+30 um -> experiment z=+40 um: 0.93949897
+  generated z=+40 um -> experiment z=+50 um: 0.93660071
+  generated z=+50 um -> experiment z=+50 um: 0.93315042

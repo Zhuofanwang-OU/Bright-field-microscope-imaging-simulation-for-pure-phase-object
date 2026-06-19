@@ -1,0 +1,22 @@
+Partial coherent OPD SOS simulation
+raw intensity output, no flat-field normalization
+sensor_pixel_size_um = 3.450000
+magnification = 40.000000
+object_pixel_size_um = 0.086250
+NA_obj = 0.600000
+illumination_NA = 0.090000
+source_sigma = 0.150000
+effective_NA_ill = 0.090000
+n_src = 7
+source_points = 29
+bead_radius_um = 1.000000
+bead_diameter_um = 2.000000
+n_bead = 1.590000
+n_medium = 1.500000
+z_list_um = [-50, -40, -30, -20, -10, 0, 10, 20, 30, 40, 50]
+wavelength_um,normalized_weight
+0.450000,0.294405647375
+0.500000,0.121619354189
+0.550000,0.254463467866
+0.600000,0.234423199978
+0.650000,0.095088330592
